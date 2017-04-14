@@ -1,0 +1,167 @@
+﻿/** FEUILLE DE STYLE CSS **/
+
+/* GENERAL */
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Open Sans, Calibri, Sans-Serif;
+	background-color: #0E0E0E;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D9EFF7;
+}
+
+fieldset {
+	border: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+label {
+	display: inline-block;
+}
+
+/* PAGE PRINCIPALE */
+
+#main {
+	background-color: #E8EBF3;
+	font-size: 15px;
+	margin: auto;
+	width: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	min-height: 800px;
+}
+
+/* PARTIE CONNEXION */
+
+#connexion {
+	padding: 10px 0px 10px 20px;
+	color: white;
+	background-color: #3E5E95;
+}
+
+#connexion a {
+	color: lightblue;
+}
+
+#connexion a:hover {
+	color: #D9EFF7;
+}
+
+#connexion form label {
+	font-size: 10pt;
+}
+
+#connexion form input {
+	padding: 0px 0px 0px 5px;
+	height: 25px;
+	width: 160px;
+    display: block;
+}
+
+#connexion form .wrap {
+	margin: 0px 15px 0px 0px;
+    float: left;
+}
+
+#connexion form .wrap a {
+	font-size: 8pt;
+}
+
+#connexion form input {
+    display: block;
+}
+
+#connexion input[type="submit"] {
+	padding: 0px 0px 0px 0px;
+	height: 30px;
+	width: 100px;
+	color: white;
+	background-color: #456DAF;
+	border: 1px solid #2D4C7B;
+}
+
+#connexion input[type="submit"]:hover {
+	background-color: #457DAF;
+}
+
+div.erreur {
+	padding: 0px 0px 0px 20px;
+	font-size: 10pt;
+}
+
+/* PARTIE INSCRIPTION */
+
+#inscription {
+	padding: 40px 20px 0px 30px;
+}
+
+#inscription .wrap, #inscription .wrap input {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#inscription .wrap label {
+	margin: -10px 0px 0px 0px;
+}
+
+#inscription input {
+	display: block;
+	border-radius: 4px;
+	height: 35px;
+	margin: 0px 0px 10px 0px;
+}
+
+#inscription input[type="text"], #inscription input[type="password"] {
+	padding: 0px 0px 0px 7px;
+	width: 400px;
+	border: 1px solid #BEC7D2;
+}
+
+#inscription input.small {
+	width: 193px;
+}
+
+#inscription input[type="radio"] {
+	height: 12px;
+}
+
+#inscription .wrap label {
+	margin: 0px 15px 0px 0px;
+}
+
+#inscription .wrap a {
+	display: inline-block;
+	padding: 0px 0px 0px 5px;
+	width: 160px;
+	font-size: 9pt;
+	color: #3B639C;
+}
+
+#inscription .infos {
+	margin: 20px 0px 20px 0px;
+	font-size: 8pt;
+	width: 310px;
+}
+
+#inscription .infos a {
+	color: #3B639C;
+}
+
+#inscription input[type="submit"] {
+	width: 170px;
+	color: white;
+	background: linear-gradient(#81AC5C, #668545);
+	border: 1px solid #4B6923;
+}
+
+#inscription input[type="submit"]:hover {
+	background: linear-gradient(#91BC6C, #669545);
+}
